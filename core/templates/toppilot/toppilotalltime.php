@@ -1,5 +1,5 @@
 <table>
-	<tr style="background: #dddddd; text-transform: uppercase;"><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Amount</td></tr>
+	<tr><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Amount</td></tr>
 	<?php 
 	if(!$bestrevenuealltimes)		
 		{

@@ -1,5 +1,4 @@
-<h3 style="margin-left: 80px; margin-top: 75px;">Top Pilots</h3>
-<div style="border: solid 3px; margin-bottom: 35px; padding: 25px; border-radius: 5px;" class="container">
+<h3>Top Pilots</h3>
 <link type="text/css" rel="stylesheet" href="http://onlinehtmltools.com/tab-generator/skins/skin6/top.css"></script>
 <div style="border-radius: 10px;" class="toppilot">
  <ul style="text-align:center;">
@@ -25,4 +24,3 @@ $('.toppilot').skinableTabs({
     position: 'top'
   });
 </script>
-</div>
