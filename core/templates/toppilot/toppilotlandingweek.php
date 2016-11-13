@@ -1,4 +1,4 @@
-<table>
+<table width="100%">
 	<tr><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Miles</td></tr>
 	<?php 
 	if(!$bestlandingweeks)		

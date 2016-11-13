@@ -1,4 +1,4 @@
-<table>
+<table width="100%">
 	<tr><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Hour(s)</td></tr>
 	<?php
 	if(!$bestflighttimealltimes)		

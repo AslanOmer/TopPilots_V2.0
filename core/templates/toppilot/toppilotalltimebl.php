@@ -1,4 +1,4 @@
-<table>
+<table width="100%">
 	<tr><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Amount</td></tr>
 	<?php 
 	if(!$bestlandingalltimes)		
