@@ -108,7 +108,7 @@ ul.toppilotleft li a:focus, .active {
 
 .toppilotcon1 {
     display: none;
-    padding: none;
+    padding-left: 5px;
     width: 100%;
 	border-top: none;
 	-webkit-animation: fadeEffect 1s;
@@ -166,7 +166,7 @@ ul.toppilotleft1 li a:focus, .active {
 
 .toppilotcon2 {
     display: none;
-    padding: none;
+    padding-left: 5px;
     width: 100%;
 	border-top: none;
 	-webkit-animation: fadeEffect 1s;
@@ -224,7 +224,7 @@ ul.toppilotleft2 li a:focus, .active {
 
 .toppilotcon3 {
     display: none;
-    padding: none;
+    padding-left: 5px;
     width: 100%;
 	border-top: none;
 	-webkit-animation: fadeEffect 1s;
@@ -282,7 +282,7 @@ ul.toppilotleft3 li a:focus, .active {
 
 .toppilotcon4 {
     display: none;
-    padding: none;
+    padding-left: 5px;
     width: 100%;
 	border-top: none;
 	-webkit-animation: fadeEffect 1s;
