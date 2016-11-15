@@ -1,0 +1,290 @@
+ul.toppilot {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #ddd;
+	border: 1px solid #ddd;
+}
+
+
+ul.toppilot li {
+	float: left;
+	padding: 5px;
+	}
+
+
+ul.toppilot li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	border-radius: 15px;
+}
+
+
+ul.toppilot li a:hover {
+	/*background-color: #ddd;*/
+	border-radius: 15px;
+	
+	}
+
+
+ul.toppilot li a:focus, .active {
+	background-color: #fff;\
+	border-radius: 15px;
+	}
+
+
+.toppilotcon {
+    display: none;
+    padding: 5px;
+    border: 1px solid #ddd;
+	border-top: none;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; 
+}
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+div.toppilotdetailbd {
+	list-style-type: none;
+    margin: none;
+    padding: 5px;
+    overflow: hidden;
+    background: #ddd;
+	width: 20%;
+	float: left;
+	
+}
+
+div.toppilotcont {
+	background: white;
+	float: right;
+	width: 80%;
+	
+}
+
+div.contain {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+	
+}
+
+ul.toppilotleft li a {
+    display: block;
+    color: #333;
+    text-align: left;
+    padding: 5px;
+	margin: none;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	width: 100%;
+}
+
+ul.toppilotleft li a:hover {
+	/*background-color: #ddd;*/
+	
+	
+	}
+ul.toppilotleft li a:focus, .active {
+	background-color: #fff;
+	
+	}
+
+.toppilotcon1 {
+    display: none;
+    padding: none;
+    width: 100%;
+	border-top: none;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; 
+}
+
+div.toppilotdetailbft1 {
+	list-style-type: none;
+    margin: none;
+    padding: 5px;
+    overflow: hidden;
+    background: #ddd;
+	width: 20%;
+	float: left;
+	
+}
+
+div.toppilotcont1 {
+	background: white;
+	float: right;
+	width: 80%;
+	
+}
+
+div.contain1 {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+	
+}
+
+ul.toppilotleft1 li a {
+    display: block;
+    color: #333;
+    text-align: left;
+    padding: 5px;
+	margin: none;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	width: 100%;
+}
+
+ul.toppilotleft1 li a:hover {
+	/*background-color: #ddd;*/
+	
+	
+	}
+ul.toppilotleft1 li a:focus, .active {
+	background-color: #fff;
+	
+	}
+
+.toppilotcon2 {
+    display: none;
+    padding: none;
+    width: 100%;
+	border-top: none;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; 
+}
+
+div.toppilotdetailbl2 {
+	list-style-type: none;
+    margin: none;
+    padding: 5px;
+    overflow: hidden;
+    background: #ddd;
+	width: 20%;
+	float: left;
+	
+}
+
+div.toppilotcont1 {
+	background: white;
+	float: right;
+	width: 80%;
+	
+}
+
+div.contain2 {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+	
+}
+
+ul.toppilotleft2 li a {
+    display: block;
+    color: #333;
+    text-align: left;
+    padding: 5px;
+	margin: none;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	width: 100%;
+}
+
+ul.toppilotleft2 li a:hover {
+	/*background-color: #ddd;*/
+	
+	
+	}
+ul.toppilotleft2 li a:focus, .active {
+	background-color: #fff;
+	
+	}
+
+.toppilotcon3 {
+    display: none;
+    padding: none;
+    width: 100%;
+	border-top: none;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; 
+}
+
+div.toppilotdetailbl3 {
+	list-style-type: none;
+    margin: none;
+    padding: 5px;
+    overflow: hidden;
+    background: #ddd;
+	width: 20%;
+	float: left;
+	
+}
+
+div.toppilotcont1 {
+	background: white;
+	float: right;
+	width: 80%;
+	
+}
+
+div.contain3 {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+	
+}
+
+ul.toppilotleft3 li a {
+    display: block;
+    color: #333;
+    text-align: left;
+    padding: 5px;
+	margin: none;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	width: 100%;
+}
+
+ul.toppilotleft3 li a:hover {
+	/*background-color: #ddd;*/
+	
+	
+	}
+ul.toppilotleft3 li a:focus, .active {
+	background-color: #fff;
+	
+	}
+
+.toppilotcon4 {
+    display: none;
+    padding: none;
+    width: 100%;
+	border-top: none;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; 
+}
