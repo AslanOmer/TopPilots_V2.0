@@ -9,7 +9,7 @@ Install:
 
 1. Download the repository and unzip in a desired location.
 2. Upload files into coresponding folders on your website in the oreder.
-3. Add the following to your "layout.php" and place them inside "<head></head>" tags.
+3. Add the following to your "layout.php" and place them inside "head" tags.
 	
 		<script type="text/javascript" src="<?php echo fileurl('lib/js/toppilot.js');?>"></script>
 		<link rel="stylesheet" href="<?php echo fileurl('lib/css/toppilot.css');?>" />
