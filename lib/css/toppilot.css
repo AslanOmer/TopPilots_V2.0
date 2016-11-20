@@ -1,16 +1,69 @@
+.act {
+	background-color: #ddd;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	}
+
+table.toppilot {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table.toppilot tr th,
+table.toppilot tr td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+table.toppilot tr th:first-child,
+table.toppilot tr td:first-child {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+table.toppilot tr th {
+  background: #ddd;
+  border-top: 1px solid #ddd;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+table.toppilot tr:first-child th:first-child {
+  border-top-left-radius: 5px;
+}
+
+table.toppilot tr:first-child th:last-child {
+  border-top-right-radius: 5px;
+}
+
+table.toppilot tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+table.toppilot tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
 ul.toppilot {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #ddd;
+    background: #fff;
 	border: 1px solid #ddd;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 
 ul.toppilot li {
 	float: left;
 	padding: 5px;
+	width: 25%;
+	text-align: center;
 	}
 
 
@@ -20,22 +73,17 @@ ul.toppilot li a {
     text-align: center;
     padding: 5px;
     text-decoration: none;
+	text-transform: uppercase;
     transition: 0.3s;
     font-size: 17px;
-	border-radius: 15px;
+	font-weight: 400;
+	border-radius: 5px;
+	width: 100%;
 }
 
-
-ul.toppilot li a:hover {
-	/*background-color: #ddd;*/
-	border-radius: 15px;
-	
-	}
-
-
-ul.toppilot li a:focus, .active {
-	background-color: #fff;\
-	border-radius: 15px;
+ul.toppilot li a:focus {
+	background-color: #ddd;\
+	border-radius: 5px;
 	}
 
 
@@ -44,6 +92,8 @@ ul.toppilot li a:focus, .active {
     padding: 5px;
     border: 1px solid #ddd;
 	border-top: none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 	-webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s; 
 }
@@ -59,20 +109,32 @@ ul.toppilot li a:focus, .active {
 
 div.toppilotdetailbd {
 	list-style-type: none;
-    margin: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+    margin: 0;
     padding: 5px;
     overflow: hidden;
-    background: #ddd;
-	width: 20%;
+    background: #fff;
+	width: 15%;
 	float: left;
 	
 }
 
+div.toppilotdetailbd ul{
+	margin: 0;
+	padding: 0;
+	}
+
+div.toppilotdetailbd ul li{
+	margin: 0;
+	padding: 0;
+	}
+
+
 div.toppilotcont {
 	background: white;
 	float: right;
-	width: 80%;
-	
+	width: 85%;
 }
 
 div.contain {
@@ -91,19 +153,16 @@ ul.toppilotleft li a {
     padding: 5px;
 	margin: none;
     text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
     transition: 0.3s;
     font-size: 17px;
 	width: 100%;
 }
 
-ul.toppilotleft li a:hover {
-	/*background-color: #ddd;*/
-	
-	
-	}
-ul.toppilotleft li a:focus, .active {
-	background-color: #fff;
-	
+ul.toppilotleft li a:focus {
+	background-color: #ddd;
+	border-radius: 5px;
 	}
 
 .toppilotcon1 {
@@ -117,20 +176,31 @@ ul.toppilotleft li a:focus, .active {
 
 div.toppilotdetailbft1 {
 	list-style-type: none;
-    margin: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+    margin: 0;
     padding: 5px;
     overflow: hidden;
-    background: #ddd;
-	width: 20%;
+    background: #fff;
+	width: 15%;
 	float: left;
 	
+}
+
+div.toppilotdetailbft1 ul{
+	margin: 0;
+	padding: 0;
+}
+
+div.toppilotdetailbft1 ul li{
+	margin: 0;
+	padding: 0;
 }
 
 div.toppilotcont1 {
 	background: white;
 	float: right;
-	width: 80%;
-	
+	width: 85%;
 }
 
 div.contain1 {
@@ -149,19 +219,16 @@ ul.toppilotleft1 li a {
     padding: 5px;
 	margin: none;
     text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
     transition: 0.3s;
     font-size: 17px;
 	width: 100%;
 }
 
-ul.toppilotleft1 li a:hover {
-	/*background-color: #ddd;*/
-	
-	
-	}
-ul.toppilotleft1 li a:focus, .active {
-	background-color: #fff;
-	
+ul.toppilotleft1 li a:focus {
+	background-color: #ddd;
+	border-radius: 5px;
 	}
 
 .toppilotcon2 {
@@ -175,20 +242,31 @@ ul.toppilotleft1 li a:focus, .active {
 
 div.toppilotdetailbl2 {
 	list-style-type: none;
-    margin: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+    margin: 0;
     padding: 5px;
     overflow: hidden;
-    background: #ddd;
-	width: 20%;
+    background: #fff;
+	width: 15%;
 	float: left;
 	
+}
+
+div.toppilotdetailbl2 ul{
+	margin: 0;
+	padding: 0;
+}
+
+div.toppilotdetailbl2 ul li{
+	margin: 0;
+	padding: 0;
 }
 
 div.toppilotcont1 {
 	background: white;
 	float: right;
-	width: 80%;
-	
+	width: 85%;
 }
 
 div.contain2 {
@@ -207,19 +285,16 @@ ul.toppilotleft2 li a {
     padding: 5px;
 	margin: none;
     text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
     transition: 0.3s;
     font-size: 17px;
 	width: 100%;
 }
 
-ul.toppilotleft2 li a:hover {
-	/*background-color: #ddd;*/
-	
-	
-	}
-ul.toppilotleft2 li a:focus, .active {
-	background-color: #fff;
-	
+ul.toppilotleft2 li a:focus {
+	background-color: #ddd;
+	border-radius: 5px;
 	}
 
 .toppilotcon3 {
@@ -233,20 +308,31 @@ ul.toppilotleft2 li a:focus, .active {
 
 div.toppilotdetailbl3 {
 	list-style-type: none;
-    margin: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+    margin: 0;
     padding: 5px;
     overflow: hidden;
-    background: #ddd;
-	width: 20%;
+    background: #fff;
+	width: 15%;
 	float: left;
 	
+}
+
+div.toppilotdetailbl3 ul{
+	margin: 0;
+	padding: 0;
+}
+
+div.toppilotdetailbl3 ul li{
+	margin: 0;
+	padding: 0;
 }
 
 div.toppilotcont1 {
 	background: white;
 	float: right;
-	width: 80%;
-	
+	width: 85%;
 }
 
 div.contain3 {
@@ -265,19 +351,16 @@ ul.toppilotleft3 li a {
     padding: 5px;
 	margin: none;
     text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
     transition: 0.3s;
     font-size: 17px;
 	width: 100%;
 }
 
-ul.toppilotleft3 li a:hover {
-	/*background-color: #ddd;*/
-	
-	
-	}
-ul.toppilotleft3 li a:focus, .active {
-	background-color: #fff;
-	
+ul.toppilotleft3 li a:focus {
+	background-color: #ddd;
+	border-radius: 5px;
 	}
 
 .toppilotcon4 {

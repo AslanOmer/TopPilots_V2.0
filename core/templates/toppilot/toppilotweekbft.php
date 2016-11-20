@@ -1,10 +1,10 @@
-<table width="100%">
-	<tr><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Hour(s)</td></tr>
+<table class="toppilot">
+	<tr><th>Pilot ID</th><th>Name</th><th>Rank</th><th>Amount</th></tr>
 	<?php 
 	if(!$bestflighttimeweeks)		
 		{
 	?>
-			<tr><td align="center" colspan="4">No Records Today!</td></tr>
+			<tr><td align="center" colspan="4">No Records This Week!</td></tr>
 	<?php
 		}
 	else

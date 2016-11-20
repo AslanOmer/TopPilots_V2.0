@@ -1,7 +1,7 @@
 <div class="contain3">
 	<div class="toppilotdetailbl3">
 		<ul class="toppilotleft3">
-			<li><a href="javascript:void(0)" class="toppilotdet4" onclick="toppilottabs4(event, 'pilotday')">Today</a></li>
+			<li><a id="defaultOpen4" href="javascript:void(0)" class="toppilotdet4" onclick="toppilottabs4(event, 'pilotday')">Today</a></li>
 			<li><a href="javascript:void(0)" class="toppilotdet4" onclick="toppilottabs4(event, 'pilotweek')">This Week</a></li>
 			<li><a href="javascript:void(0)" class="toppilotdet4" onclick="toppilottabs4(event, 'pilotmonth')">This Month</a></li>
 			<li><a href="javascript:void(0)" class="toppilotdet4" onclick="toppilottabs4(event, 'pilotyear')">This Year</a></li>
@@ -16,3 +16,6 @@
 		<div id="pilotalltime" class="toppilotcon4"><?php Template::show('toppilot/toppilotalltime.php');?></div>
 	</div>
 </div>
+<script>
+document.getElementById("defaultOpen4").click();
+</script>

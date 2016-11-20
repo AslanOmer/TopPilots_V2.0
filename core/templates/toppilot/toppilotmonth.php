@@ -1,5 +1,5 @@
-<table width="100%">
-	<tr><td>Pilot ID</td><td>Name</td><td>Rank</td><td>Amount</td></tr>
+<table class="toppilot">
+	<tr><th>Pilot ID</th><th>Name</th><th>Rank</th><th>Amount</th></tr>
 	<?php 
 	if(!$bestrevenuemonths)		
 		{
