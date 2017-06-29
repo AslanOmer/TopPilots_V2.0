@@ -8,6 +8,7 @@
 table.toppilot {
   border-collapse: separate;
   border-spacing: 0;
+  width: 99%;
 }
 table.toppilot tr th,
 table.toppilot tr td {
@@ -27,7 +28,7 @@ table.toppilot tr th {
   border-top: 1px solid #ddd;
   text-align: left;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -61,8 +62,8 @@ ul.toppilot {
 
 ul.toppilot li {
 	float: left;
-	padding: 5px;
-	width: 25%;
+	padding: 10px;
+	width: 20%;
 	text-align: center;
 	}
 
@@ -75,7 +76,7 @@ ul.toppilot li a {
     text-decoration: none;
 	text-transform: uppercase;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 15px;
 	font-weight: 400;
 	border-radius: 5px;
 	width: 100%;
@@ -92,6 +93,7 @@ ul.toppilot li a:focus {
     padding: 5px;
     border: 1px solid #ddd;
 	border-top: none;
+	
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	-webkit-animation: fadeEffect 1s;
@@ -115,7 +117,7 @@ div.toppilotdetailbd {
     padding: 5px;
     overflow: hidden;
     background: #fff;
-	width: 15%;
+	width: 14%;
 	float: left;
 	
 }
@@ -134,7 +136,7 @@ div.toppilotdetailbd ul li{
 div.toppilotcont {
 	background: white;
 	float: right;
-	width: 85%;
+	width: 84%;
 }
 
 div.contain {
@@ -151,13 +153,13 @@ ul.toppilotleft li a {
     color: #333;
     text-align: left;
     padding: 5px;
-	margin: none;
+	margin: 2px;
     text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 400;
     transition: 0.3s;
-    font-size: 17px;
-	width: 100%;
+    font-size: 15px;
+	width: 90%;
 }
 
 ul.toppilotleft li a:focus {
@@ -182,7 +184,7 @@ div.toppilotdetailbft1 {
     padding: 5px;
     overflow: hidden;
     background: #fff;
-	width: 15%;
+	width: 14%;
 	float: left;
 	
 }
@@ -200,7 +202,7 @@ div.toppilotdetailbft1 ul li{
 div.toppilotcont1 {
 	background: white;
 	float: right;
-	width: 85%;
+	width: 84%;
 }
 
 div.contain1 {
@@ -213,17 +215,17 @@ div.contain1 {
 }
 
 ul.toppilotleft1 li a {
-    display: block;
+   display: block;
     color: #333;
     text-align: left;
     padding: 5px;
-	margin: none;
+	margin: 2px;
     text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 400;
     transition: 0.3s;
-    font-size: 17px;
-	width: 100%;
+    font-size: 15px;
+	width: 90%;
 }
 
 ul.toppilotleft1 li a:focus {
@@ -248,7 +250,7 @@ div.toppilotdetailbl2 {
     padding: 5px;
     overflow: hidden;
     background: #fff;
-	width: 15%;
+	width: 14%;
 	float: left;
 	
 }
@@ -266,7 +268,7 @@ div.toppilotdetailbl2 ul li{
 div.toppilotcont1 {
 	background: white;
 	float: right;
-	width: 85%;
+	width: 84%;
 }
 
 div.contain2 {
@@ -283,13 +285,13 @@ ul.toppilotleft2 li a {
     color: #333;
     text-align: left;
     padding: 5px;
-	margin: none;
+	margin: 2px;
     text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 400;
     transition: 0.3s;
-    font-size: 17px;
-	width: 100%;
+    font-size: 15px;
+	width: 90%;
 }
 
 ul.toppilotleft2 li a:focus {
@@ -314,7 +316,7 @@ div.toppilotdetailbl3 {
     padding: 5px;
     overflow: hidden;
     background: #fff;
-	width: 15%;
+	width: 14%;
 	float: left;
 	
 }
@@ -332,7 +334,7 @@ div.toppilotdetailbl3 ul li{
 div.toppilotcont1 {
 	background: white;
 	float: right;
-	width: 85%;
+	width: 84%;
 }
 
 div.contain3 {
@@ -349,13 +351,13 @@ ul.toppilotleft3 li a {
     color: #333;
     text-align: left;
     padding: 5px;
-	margin: none;
+	margin: 2px;
     text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 400;
     transition: 0.3s;
-    font-size: 17px;
-	width: 100%;
+    font-size: 15px;
+	width: 90%;
 }
 
 ul.toppilotleft3 li a:focus {
