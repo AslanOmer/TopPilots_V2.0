@@ -207,7 +207,7 @@ class TopPilots extends CodonData
 					(SELECT 
 						pilotid, landingrate 
 							FROM ".TABLE_PREFIX."pireps 
-								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND DAY(submitdate) = DAY(now()) AND accepted = 1
+								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND DAY(submitdate) = DAY(now()) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
 										LEFT JOIN ".TABLE_PREFIX."pilots t2 ON t1.pilotid = t2.pilotid 
 											ORDER BY landingrate DESC LIMIT 10";
@@ -220,7 +220,7 @@ class TopPilots extends CodonData
 					(SELECT 
 						pilotid, landingrate 
 							FROM ".TABLE_PREFIX."pireps 
-								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND WEEK(submitdate, 1) = WEEK(now(), 1) AND accepted = 1
+								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND WEEK(submitdate, 1) = WEEK(now(), 1) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
 										LEFT JOIN ".TABLE_PREFIX."pilots t2 ON t1.pilotid = t2.pilotid 
 											ORDER BY landingrate DESC LIMIT 10";
@@ -233,7 +233,7 @@ class TopPilots extends CodonData
 					(SELECT 
 						pilotid, landingrate 
 							FROM ".TABLE_PREFIX."pireps 
-								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND accepted = 1
+								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
 										LEFT JOIN ".TABLE_PREFIX."pilots t2 ON t1.pilotid = t2.pilotid 
 											ORDER BY landingrate DESC LIMIT 10";
@@ -246,7 +246,7 @@ class TopPilots extends CodonData
 					(SELECT 
 						pilotid, landingrate 
 							FROM ".TABLE_PREFIX."pireps 
-								WHERE YEAR(submitdate) = YEAR(now()) AND accepted = 1
+								WHERE YEAR(submitdate) = YEAR(now()) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
 										LEFT JOIN ".TABLE_PREFIX."pilots t2 ON t1.pilotid = t2.pilotid 
 											ORDER BY landingrate DESC LIMIT 10";
@@ -260,7 +260,7 @@ class TopPilots extends CodonData
 					(SELECT 
 						pilotid, landingrate 
 							FROM ".TABLE_PREFIX."pireps 
-								WHERE accepted = 1
+								WHERE accepted = 1 AND landingrate < 0
 									GROUP BY pilotid) t1
 										LEFT JOIN ".TABLE_PREFIX."pilots t2 ON t1.pilotid = t2.pilotid 
 											ORDER BY landingrate DESC LIMIT 10";
