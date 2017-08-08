@@ -205,7 +205,7 @@ class TopPilots extends CodonData
 		{
 			$sql="SELECT t1.pilotid,t1.landingrate,t2.firstname,t2.lastname,t2.code,t2.rank FROM 
 					(SELECT 
-						pilotid, landingrate 
+						pilotid, MAX(landingrate) as landingrate
 							FROM ".TABLE_PREFIX."pireps 
 								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND DAY(submitdate) = DAY(now()) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
@@ -218,7 +218,7 @@ class TopPilots extends CodonData
 		{
 			$sql="SELECT t1.pilotid,t1.landingrate,t2.firstname,t2.lastname,t2.code,t2.rank FROM 
 					(SELECT 
-						pilotid, landingrate 
+						pilotid, MAX(landingrate) as landingrate 
 							FROM ".TABLE_PREFIX."pireps 
 								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND WEEK(submitdate, 1) = WEEK(now(), 1) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
@@ -231,7 +231,7 @@ class TopPilots extends CodonData
 		{
 			$sql="SELECT t1.pilotid,t1.landingrate,t2.firstname,t2.lastname,t2.code,t2.rank FROM 
 					(SELECT 
-						pilotid, landingrate 
+						pilotid, MAX(landingrate) as landingrate
 							FROM ".TABLE_PREFIX."pireps 
 								WHERE YEAR(submitdate) = YEAR(now()) AND MONTH(submitdate) = MONTH(now()) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
@@ -244,7 +244,7 @@ class TopPilots extends CodonData
 		{
 			$sql="SELECT t1.pilotid,t1.landingrate,t2.firstname,t2.lastname,t2.code,t2.rank FROM 
 					(SELECT 
-						pilotid, landingrate 
+						pilotid, MAX(landingrate) as landingrate 
 							FROM ".TABLE_PREFIX."pireps 
 								WHERE YEAR(submitdate) = YEAR(now()) AND landingrate < 0 AND accepted = 1
 									GROUP BY pilotid) t1
@@ -258,7 +258,7 @@ class TopPilots extends CodonData
 		{
 			$sql="SELECT t1.pilotid,t1.landingrate,t2.firstname,t2.lastname,t2.code,t2.rank FROM 
 					(SELECT 
-						pilotid, landingrate 
+						pilotid, MAX(landingrate) as landingrate 
 							FROM ".TABLE_PREFIX."pireps 
 								WHERE accepted = 1 AND landingrate < 0
 									GROUP BY pilotid) t1
